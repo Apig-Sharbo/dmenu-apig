@@ -7,6 +7,7 @@ static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't us
 static const char *fonts[] = {
     "Noto Sans Mono:pixelsize=13:antialias=true:autohint=true",
     /* "Symbola:pixelsize=13:antialias=true:autohint=true", */ // For Systems that don't support libxft-bgra for colored emoji fonts
+    "Noto Color Emoji:pixelsize=13:antialias=true:autohint=true",
     "JoyPixels:pixelsize=13:antialias=true:autohint=true",
     "monospace:pixelsize=13:antialias=true:autohint=true"
 };
